@@ -982,9 +982,12 @@ Note that in order to support routers that use HTML5 `pushState` API, you may wa
 ### Firebase
 
 Install the Firebase CLI if you haven't already by running `npm install -g firebase-tools`.
+
 Sign up for a [Firebase account](https://console.firebase.google.com/) and create a new project.
+
 Run the `firebase login` command and login with your previous created Firebase account.
-Then run the `firebase init` command from your project root. You need to choose *Hosting: Configure and deploy Firebase Hosting sites* option, choose the project you created on the next step, accept *database.rules.json* to be created, choose *build* as public directory and accept to *Configure as a single-page app* with the *y* option.
+
+Then run the `firebase init` command from your project root. You need to choose *Hosting: Configure and deploy Firebase Hosting sites* option, choose your previous created project, accept *database.rules.json* to be created, choose *build* as public directory and accept to *Configure as a single-page app* with the *y* option.
 
 ```sh
     === Project Setup
@@ -1039,7 +1042,7 @@ After creating the build folder with `npm run build`, you can deploy to firebase
     Hosting URL: https://example-app-fd690.firebaseapp.com
 ```
 
-For more information see [Add Firebase to your JavaScript Project](https://firebase.google.com/docs/web/setup](https://firebase.google.com/docs/web/setup).
+For more information see [Add Firebase to your JavaScript Project](https://firebase.google.com/docs/web/setup).
 
 ## Something Missing?
 
