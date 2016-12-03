@@ -987,7 +987,7 @@ Sign up for a [Firebase account](https://console.firebase.google.com/) and creat
 
 Run the `firebase login` command and login with your previous created Firebase account.
 
-Then run the `firebase init` command from your project root. You need to choose *Hosting: Configure and deploy Firebase Hosting sites* option, choose your previous created project, accept *database.rules.json* to be created, choose *build* as public directory and accept to *Configure as a single-page app* with the *y* option.
+Then run the `firebase init` command from your project's root. You need to choose the *Hosting: Configure and deploy Firebase Hosting sites* option, choose your previous created project, accept *database.rules.json* to be created, choose *build* as public directory and accept to *Configure as a single-page app* with the *y* option.
 
 ```sh
     === Project Setup
